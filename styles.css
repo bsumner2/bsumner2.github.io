@@ -1,0 +1,44 @@
+:root {
+    --link-color:#1700FF;
+    --link-hovered:#17BEBB;
+    --link-visited:#4464AD;
+    --bg:#920700;
+    --assignment-bg:#EF3E36;
+    --body-text:#918186;
+    --assignment-text:#2E282A;
+}
+
+body{
+    background:var(--bg); 
+    font-family:'Times New Roman', Times, serif;
+    color:var(--body-text);
+    
+}
+
+h1 {
+    text-align:center;
+}
+ 
+a:link {
+    color:var(--link-color);
+}
+
+a:hover{
+    color:var(--link-hovered);
+}
+
+a:visited{
+    color:var(--link-visited);
+}
+
+.assignment {
+    display:flex;
+    padding:12px;
+    margin:12px;
+    background:var(--assignment-bg);
+    color:var(--assignment-text);
+}
+.assignment img {
+    width:200px;
+    padding:12px;
+}
