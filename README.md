@@ -1,2 +1,2 @@
 # bsumner2.github.io
-CSCE 190 first HW Assignment 😼
+CSCE 190 Github Page
