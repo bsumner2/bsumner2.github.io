@@ -1,11 +1,12 @@
 :root {
-    --link-color:#1700FF;
-    --link-hovered:#17BEBB;
-    --link-visited:#4464AD;
-    --bg:#920700;
-    --assignment-bg:#EF3E36;
-    --body-text:#000000;
-    --assignment-text:#0F0F0F;
+    --link-color:#ff1f1f;
+    --link-hovered:#ff7158;
+    --link-visited:#ff8476;
+    --bg:#6D0509;
+    --assignment-bg:#941313;
+    --body-text:#FDF6E3;
+    --assignment-text:#F9FAF9;
+    --image-frame:#682729;
 }
 
 body{
@@ -18,8 +19,12 @@ body{
 h1 {
     text-align:center;
 }
- 
-a:link {
+
+a{
+    text-decoration: none;
+}
+
+a:link{
     color:var(--link-color);
 }
 
@@ -35,10 +40,17 @@ a:visited{
     display:flex;
     padding:12px;
     margin:12px;
+    border-radius:15px;
     background:var(--assignment-bg);
     color:var(--assignment-text);
+
 }
 .assignment img {
     width:200px;
-    padding:12px;
+    margin:12px;
+    border:2px solid var(--link-color);
+}
+
+.assignment img:hover {
+    border:2px solid var(--link-hovered);
 }
