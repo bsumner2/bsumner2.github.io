@@ -48,9 +48,9 @@ a:visited{
 .assignment img {
     width:200px;
     margin:12px;
-    border:2px solid var(--link-color);
+    border:4px solid var(--link-color);
 }
 
 .assignment img:hover {
-    border:2px solid var(--link-hovered);
+    border:4px solid var(--link-hovered);
 }
