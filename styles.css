@@ -42,7 +42,7 @@ a:visited{
 
 .assignments {
     display:flex;
-    flex-wrap:wrap
+    flex-wrap:wrap;
 }
 .assignment {
     width:23%;
