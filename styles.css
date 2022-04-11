@@ -1,9 +1,9 @@
 :root {
-    --link-color:#ff1f1f;
+    --link-color:#ff4a4a;
     --link-hovered:#ff7158;
     --link-visited:#ff8476;
     --bg:#6D0509;
-    --assignment-bg:#941313;
+    --assignment-bg:#5f1010;
     --body-text:#FDF6E3;
     --assignment-text:#F9FAF9;
     --image-frame:#682729;
@@ -20,6 +20,10 @@ h1 {
     text-align:center;
 }
 
+h2 {
+    text-align:center;
+
+}
 a{
     text-decoration: none;
 }
@@ -36,8 +40,13 @@ a:visited{
     color:var(--link-visited);
 }
 
-.assignment {
+.assignments {
     display:flex;
+    flex-wrap:wrap
+}
+.assignment {
+    width:23%;
+    height:35%;
     padding:12px;
     margin:12px;
     border-radius:15px;
@@ -48,9 +57,13 @@ a:visited{
 .assignment img {
     width:200px;
     margin:12px;
+    padding: 12px 10;
     border:4px solid var(--link-color);
+    display:block;
+    margin:auto;
 }
 
 .assignment img:hover {
     border:4px solid var(--link-hovered);
 }
+
